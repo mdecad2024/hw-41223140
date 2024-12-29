@@ -208,13 +208,14 @@ function changeOption(strOpt, strValue) {
 
 function openByGet() {
     var urls = [
-          "https://s104.cycu.org/~41223140/41223140_part1.stl",
+        "https://s104.cycu.org/~41223140/41223140_part1.stl",
          "https://s104.cycu.org/~41223140/41223140_part2.stl",
          "https://s104.cycu.org/~41223140/41223140_part3.stl",         
          "https://s104.cycu.org/~41223140/41223140_part4.stl",
          "https://s104.cycu.org/~41223140/41223140_part5.stl",
          "https://s104.cycu.org/~41223140/41223140_part6-1.stl",
          "https://s104.cycu.org/~41223140/41223140_part7.stl",
+    ];
     var opt = getOptions();
     urls.forEach((url, index) => {
         opt.SceneUrl = url;
